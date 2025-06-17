@@ -1,0 +1,20 @@
+{
+    "name": "cloudz",
+    "description": "",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "CloudZ\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Caio Flor",
+            "email": "caio.flor@alunos.fho.edu.br"
+        }
+    ],
+    "require": {
+        "phpseclib/phpseclib": "^3.0",
+        "aws/aws-sdk-php": "^3.269"
+    }
+}
