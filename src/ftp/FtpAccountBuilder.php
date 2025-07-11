@@ -8,9 +8,9 @@ class FTPAccountBuilder
 {
     private FTPAccount $ftpAccount;
 
-    public function __construct(int $code)
+    public function __construct()
     {
-        $this->ftpAccount = new FTPAccount($code);
+        $this->ftpAccount = new FTPAccount();
     }
 
     public function usingHost(string $host)

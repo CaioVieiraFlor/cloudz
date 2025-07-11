@@ -1,5 +1,5 @@
 {
-    "name": "cloudz",
+    "name": "caiovieiraflor/cloudz",
     "description": "",
     "type": "library",
     "autoload": {
@@ -11,10 +11,15 @@
         {
             "name": "Caio Flor",
             "email": "caio.flor@alunos.fho.edu.br"
+        },
+        {
+            "name": "Lucas Soares",
+            "email": "lucassoares12016@alunos.fho.edu.br"
         }
     ],
     "require": {
         "phpseclib/phpseclib": "^3.0",
-        "aws/aws-sdk-php": "^3.269"
+        "aws/aws-sdk-php": "^3.269",
+        "google/apiclient": "^2.16"
     }
 }

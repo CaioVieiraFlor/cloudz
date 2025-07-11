@@ -46,10 +46,6 @@ class SFTPStrategy extends StrategyBasedOnProtocolFTP
 
     protected function beforeExecute()
     {
-        if (empty($this->sftpAccount->accessUrl)) {
-            throw new Exception('A URL de acesso para os recursos deste FTP, não foi definida.', 400);
-        }
-
         $this->login();
         $this->changeToWorkDir();
     }

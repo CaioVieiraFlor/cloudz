@@ -44,6 +44,7 @@ class AWSS3Strategy extends CloudServiceStrategy
         if ($this->settings->get('path', false)) {
             return (rtrim($this->settings->get('path', false), '/') . '/');
         }
+        return '';
     }
 
     protected function doUpload(CloudServiceFile $file)

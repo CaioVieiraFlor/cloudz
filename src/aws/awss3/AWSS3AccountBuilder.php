@@ -6,9 +6,9 @@ class AWSS3AccountBuilder
 {
     private AWSS3Account $awsS3Account;
 
-    public function __construct(int $code)
+    public function __construct()
     {
-        $this->awsS3Account = new AWSS3Account($code);
+        $this->awsS3Account = new AWSS3Account();
     }
 
     public function usingKey(string $key)
