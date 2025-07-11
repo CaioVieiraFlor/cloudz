@@ -1,6 +1,6 @@
 <?php
 
-namespace CloudZ\AWS;
+namespace Cloudz\AWS;
 
 class AWSAccount {
     public string $key;

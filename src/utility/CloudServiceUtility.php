@@ -1,5 +1,5 @@
 <?php
 
-namespace CloudZ\Utility;
+namespace Cloudz\Utility;
 
 abstract class CloudServiceUtility { }

@@ -1,13 +1,13 @@
 <?php
 
-namespace CloudZ\Strategy;
+namespace Cloudz\Strategy;
 
 use Exception;
-use CloudZ\FTP\FtpAccount;
-use CloudZ\CloudServiceFile;
-use CloudZ\CloudServiceSettings;
-use CloudZ\DeleteCloudServiceFile;
-use CloudZ\FTP\StrategyBasedOnProtocolFTP;
+use Cloudz\FTP\FtpAccount;
+use Cloudz\CloudServiceFile;
+use Cloudz\CloudServiceSettings;
+use Cloudz\DeleteCloudServiceFile;
+use Cloudz\FTP\StrategyBasedOnProtocolFTP;
 
 class FTPStrategy extends StrategyBasedOnProtocolFTP 
 {
@@ -52,10 +52,6 @@ class FTPStrategy extends StrategyBasedOnProtocolFTP
 
     protected function beforeExecute() 
     {
-        if (empty($this->ftpAccount->accessUrl)) {
-            throw new Exception('A URL de acesso para os recursos deste FTP, não foi definida.', 400);
-        }
-
         $this->login();
         $this->changeToWorkDir();
     }

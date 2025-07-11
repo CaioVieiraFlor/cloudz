@@ -1,6 +1,6 @@
 <?php
 
-namespace CloudZ\Response;
+namespace Cloudz\Response;
 
 abstract class CloudServiceResponse 
 {

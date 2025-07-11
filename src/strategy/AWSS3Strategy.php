@@ -1,13 +1,13 @@
 <?php
 
-namespace CloudZ\Strategy;
+namespace Cloudz\Strategy;
 
 use Exception;
-use CloudZ\CloudServiceFile;
-use CloudZ\CloudServiceSettings;
-use CloudZ\AWS\AWSS3\AWSS3Account;
-use CloudZ\DeleteCloudServiceFile;
-use CloudZ\Strategy\CloudServiceStrategy;
+use Cloudz\CloudServiceFile;
+use Cloudz\CloudServiceSettings;
+use Cloudz\AWS\AWSS3\AWSS3Account;
+use Cloudz\DeleteCloudServiceFile;
+use Cloudz\Strategy\CloudServiceStrategy;
 
 class AWSS3Strategy extends CloudServiceStrategy
 {
@@ -44,6 +44,7 @@ class AWSS3Strategy extends CloudServiceStrategy
         if ($this->settings->get('path', false)) {
             return (rtrim($this->settings->get('path', false), '/') . '/');
         }
+        return '';
     }
 
     protected function doUpload(CloudServiceFile $file)

@@ -1,8 +1,8 @@
 <?php
 
-namespace CloudZ\Utility\Path;
+namespace Cloudz\Utility\Path;
 
-use CloudZ\Utility\CloudServiceUtility;
+use Cloudz\Utility\CloudServiceUtility;
 
 abstract class CloudServicePathUtility extends CloudServiceUtility
 {

@@ -1,6 +1,6 @@
 <?php 
 
-namespace CloudZ;
+namespace Cloudz;
 
 interface BeingCloudService {
     function upload(CloudServiceFile $file);

@@ -1,15 +1,15 @@
 <?php 
 
-namespace CloudZ\Strategy;
+namespace Cloudz\Strategy;
 
 use Throwable;
-use CloudZ\CloudServiceFile;
-use CloudZ\BeingCloudService;
-use CloudZ\CloudServiceSettings;
-use CloudZ\DeleteCloudServiceFile;
-use CloudZ\Response\CloudServiceResponseError;
-use CloudZ\Response\CloudServiceResponseSuccess;
-use CloudZ\Response\CloudServiceResponseDeleteSuccess;
+use Cloudz\CloudServiceFile;
+use Cloudz\BeingCloudService;
+use Cloudz\CloudServiceSettings;
+use Cloudz\DeleteCloudServiceFile;
+use Cloudz\Response\CloudServiceResponseError;
+use Cloudz\Response\CloudServiceResponseSuccess;
+use Cloudz\Response\CloudServiceResponseDeleteSuccess;
 
 
 abstract class CloudServiceStrategy implements BeingCloudService

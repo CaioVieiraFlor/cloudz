@@ -1,8 +1,8 @@
 <?php
 
-namespace CloudZ\FTP;
+namespace Cloudz\FTP;
 
-use CloudZ\Strategy\CloudServiceStrategy;
+use Cloudz\Strategy\CloudServiceStrategy;
 
 abstract class StrategyBasedOnProtocolFTP extends CloudServiceStrategy
 {

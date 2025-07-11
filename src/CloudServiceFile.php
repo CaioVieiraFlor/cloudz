@@ -1,6 +1,6 @@
 <?php
 
-namespace CloudZ;
+namespace Cloudz;
 
 class CloudServiceFile 
 {

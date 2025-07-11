@@ -1,6 +1,6 @@
 <?php
 
-namespace CloudZ;
+namespace Cloudz;
 
 use Ds\Map;
 

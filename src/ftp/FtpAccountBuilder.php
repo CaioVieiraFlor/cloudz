@@ -1,16 +1,16 @@
 <?php 
 
-namespace CloudZ\FTP;
+namespace Cloudz\FTP;
 
-use CloudZ\FTP\FTPAccount;
+use Cloudz\FTP\FTPAccount;
 
 class FTPAccountBuilder
 {
     private FTPAccount $ftpAccount;
 
-    public function __construct(int $code)
+    public function __construct()
     {
-        $this->ftpAccount = new FTPAccount($code);
+        $this->ftpAccount = new FTPAccount();
     }
 
     public function usingHost(string $host)
